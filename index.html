@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title></title>
+    <script src='lib/game.js'>
+    </script>
+  </head>
+  <body onload="initGame()">
+    <div class="title">
+      <h1 id='title-text'>Towers of Hanoi:</h1> <hr> <h3>Steven Tyler's Gross Foot Edition<h3>
+    </div>
+
+    <div class="game-board">
+      <div class="tower" id="tower_0" onclick="handleClick(event)">
+      </div>
+
+      <div class="tower" id="tower_1" onclick="handleClick(event)">
+      </div>
+
+      <div class="tower" id="tower_2" onclick="handleClick(event)">
+      </div>
+    </div>
+  </body>
+</html>
